@@ -39,10 +39,3 @@
     color:black ;
   }
   
-/*mobile responsive*/
-@media only screen and (max-width: 1178px) {
-  body {
-    text-align: center;
-    background: #e7dec8;
-  }
-}
