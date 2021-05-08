@@ -2,9 +2,7 @@
     max-width: 100%;
     text-align: center;
   }
-.body {background: #eee;}
-
-  .img1{
+.img1{
     height:300px;
     margin:0% 0% 0% -30%;
   }
@@ -47,10 +45,4 @@
     text-align: center;
     background: #e7dec8;
   }
-  .hero-img {
-      margin-top: 10%;
-  }
-  .feature-section {
-    padding:5%;
-}
 }
