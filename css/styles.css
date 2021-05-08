@@ -2,7 +2,7 @@
     max-width: 100%;
     text-align: center;
   }
-body {background: #eee;}
+.body {background: #eee;}
 
   .img1{
     height:300px;
@@ -41,10 +41,16 @@ body {background: #eee;}
     color:black ;
   }
   
-@media screen and (max-width: 600px) {
-     body {
-          clear: both;
-      font-size: 1.3em;
-     }
+/*mobile responsive*/
+@media only screen and (max-width: 1178px) {
+  body {
+    text-align: center;
+    background: #e7dec8;
+  }
+  .hero-img {
+      margin-top: 10%;
+  }
+  .feature-section {
+    padding:5%;
 }
-  
+}
