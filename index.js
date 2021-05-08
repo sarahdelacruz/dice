@@ -16,7 +16,6 @@ var title = document.querySelector('h1');
 var player1 = document.querySelector('.p1');
 var player2 = document.querySelector('.p2');
 
-
 if (randomPic1 > randomPic2) {//when image1 is greater than the image2
     title.innerHTML = 'Dice #' + randomPic1 + ' WINS!';//title(h1)
     player1.innerHTML = '&#127942; <b>Player 1 Wins!</b>';//winner
